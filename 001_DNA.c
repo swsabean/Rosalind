@@ -53,7 +53,7 @@ int main() {
     perror("fopen");
     exit(EXIT_FAILURE);
   }
-  fprintf(fp, "%d %d %d %d", a, c, g, t);
+  fprintf(fp, "%d %d %d %d\n", a, c, g, t);
   fclose(fp);
   
   return EXIT_SUCCESS;
